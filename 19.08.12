@@ -18,3 +18,24 @@ var course = {
   updateViews: function(){
     return ++course.views;}
   }
+  
+#3
+object constructor
+function Course(title, instructor, views){
+  this.title title;
+  ...
+  }
+  
+  
+#4
+dot notation: course.title
+bracket notation: course["WP:image"]
+
+#5
+closure: function inside a fucntion, relies on the outer function variable
+MDN artical
+
+#6
+BOM
+DOM
+
