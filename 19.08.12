@@ -1,0 +1,20 @@
+#1
+var
+const: cannot be changed; math equation; upper case
+let: block scope variable; 
+e.g.
+let localVar = 2; or var localVar =2;
+if(localVar)
+{ let localVar = "i'm different";}
+
+#2
+object
+js oop sloppy is a feature, not bug
+e.g. var course = new Object();
+var course = {
+  title: "js",
+  instructor: "lucy",
+  views: 0,
+  updateViews: function(){
+    return ++course.views;}
+  }
